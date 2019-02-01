@@ -1,0 +1,25 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mdx-deck ./btc-std.md",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "build": "npm run html && npm run pdf",
+    "pdf": "mdx-deck pdf ./btc-std.md -d dist",
+    "html": "mdx-deck build ./btc-std.md -d dist --title BTC STD NOTES",
+    "start": "npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mdx-deck": "^1.5.10"
+  },
+  "dependencies": {
+    "grid-styled": "^5.0.2",
+    "rebass": "^2.1.0"
+  }
+}
