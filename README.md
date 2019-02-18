@@ -1,4 +1,4 @@
-# Bitcoin Standard Notes
+# Bitcoin Standard Notes :arrow_down: [PDF](dist/presentation.pdf)
 
 
 **develop**
